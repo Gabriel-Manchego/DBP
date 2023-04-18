@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Formulario></title>
+</head>
+<body>
+    <form>
+        <label for="nam">Nombres: </label>
+        <input id="nam" type="text" name="firstname">
+        <label for="ape">Apellidos: </label>
+        <input id="ape"type="text" name="lastname">
+        <br>
+        <label for="nas">Fecha de nacimiento:</label>
+        <input id="nas" type="time">
+
+        <label for="ocu">Ocupacion: </label>
+        <input id="pcu" type="text" name="ocupation">
+        
+        <label for="te">Telefono: </label>
+        <input id="te" type="tel" name="telephone">
+        <label for="ema">Email: </label>
+        <input id="ema" type="email" name="e-mail">
+
+        <label for="nac">Nacionalidad: </label>
+        <select id="nac" name="Nacionality">
+            <option>Peru</option>
+            <option>Chile</option>
+            <option>Argentina</option>
+            <option>Bolivia</option>
+            <option>Ecuador</option>
+        </select>
+
+        <label for="bas">Basico</label>
+        <input id="bas" type="radio" name="englvl" value="Basico">
+        <label for="int">Intermedio</label>
+        <input id="int" type="radio" name="englvl" value="Intermedio">
+        <label for="ava">Avanzado</label>
+        <input id="ava" type="radio" name="englvl" value="Avanzado">
+        <label for="flu">Fluido</label>
+        <input id="flu" type="radio" name="englvl" value="Fluido">
+
+        <label for="len">Lenguajes de programacion: </label>
+        <select id="len" name="Lenguajes" multiple>
+            <option>C++</option>
+            <option>Python</option>
+            <option>Java</option>
+            <option>Ruby</option>
+            <option>C</option>
+        </select>
+
+        <label for="Apt">Aptitudes</label>
+        <input type="list" list="Apt">
+        <datalist id="Apt">
+            <option value="1">Sociales</option>
+            <option value="2">Comunicativas</option>
+            <option value="3">Persiasivas</option>
+            <option value="4">Organizativas</option>
+            <option value="5">Verbales</option>
+        </datalist>
+
+        <label for="Habilities">Habilidades: </label>
+        Planificacion
+        <input type="checkbox" name="Habilities" id="hab">
+        Organizacion
+        <input type="checkbox" name="Habilities" id="hab">
+        Liderazgo
+        <input type="checkbox" name="Habilities" id="hab">
+
+        <label for="per">Perfil</label>
+        <textarea name="Profile" id="per" cols="30" rows="10"></textarea>
+    </form>
+</body>
+</html>
